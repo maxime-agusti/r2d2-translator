@@ -1,0 +1,19 @@
+{
+  "name": "r2d2-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxime Agusti <maxime.agusti@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "random-word": "^1.0.2",
+    "request": "^2.79.0"
+  },
+  "bin": {
+    "r2d2-translator": "./app.js"
+  }
+}
